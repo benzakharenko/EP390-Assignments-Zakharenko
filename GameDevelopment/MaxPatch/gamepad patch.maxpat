@@ -42,6 +42,22 @@
 				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Copperplate",
+					"id" : "obj-1",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1088.0, 566.0, 155.0, 31.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1089.0, 563.75, 266.0, 19.0 ],
+					"text" : "NO PRESS = 8THS, PRESS = 16THS"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Copperplate",
 					"id" : "obj-145",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -166,7 +182,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1154.0, 557.0, 155.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1145.0, 563.75, 136.0, 19.0 ],
+					"presentation_rect" : [ 1142.5, 549.0, 136.0, 19.0 ],
 					"text" : "LEFT CIRCLE PAD"
 				}
 
@@ -14713,10 +14729,10 @@
 					"clipheight" : 61.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 4/KSHMR_drums/KSHMR_drum_one_shots/KSHMR_cymbals/KSHMR_cymbal_ride_punchy.wav",
-								"filename" : "KSHMR_cymbal_ride_punchy.wav",
+								"absolutepath" : "KSHMR_cymbal_ride_ping.wav",
+								"filename" : "KSHMR_cymbal_ride_ping.wav",
 								"filekind" : "audiofile",
-								"id" : "u266005188",
+								"id" : "u521011507",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -14812,10 +14828,10 @@
 					"clipheight" : 61.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/Lush Future Soul/Audentity_Records_-_Lush_Future_Soul/Drum_Hits/Hi_Hats/Hi_Hat_Open/LFS_Hi_Hat_Open_09.wav",
+								"absolutepath" : "LFS_Hi_Hat_Open_09.wav",
 								"filename" : "LFS_Hi_Hat_Open_09.wav",
 								"filekind" : "audiofile",
-								"id" : "u834003413",
+								"id" : "u524011815",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -14851,10 +14867,10 @@
 					"clipheight" : 62.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/Golden Era/SM80_-_Golden_Era_-_Wav/drum_hits/hats/ge_hat_realbrite.wav",
+								"absolutepath" : "ge_hat_realbrite.wav",
 								"filename" : "ge_hat_realbrite.wav",
 								"filekind" : "audiofile",
-								"id" : "u419003397",
+								"id" : "u570011497",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -21172,7 +21188,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 593.0, 213.0, 50.0, 22.0 ],
-													"text" : "8 0"
+													"text" : "15 0"
 												}
 
 											}
@@ -21472,7 +21488,7 @@
 													"clipheight" : 46.0,
 													"data" : 													{
 														"clips" : [ 															{
-																"absolutepath" : "/Users/ben/Splice/sounds/packs/MOGL Sounds Future Pop Ear Candy/MOGL_FPEC_drums/MOGL_FPEC_drum_one_shots/MOGL_FPEC_snares/MOGL_FPEC_snare_trappy.wav",
+																"absolutepath" : "MOGL_FPEC_snare_trappy.wav",
 																"filename" : "MOGL_FPEC_snare_trappy.wav",
 																"filekind" : "audiofile",
 																"id" : "u476002809",
@@ -21512,7 +21528,7 @@
 													"clipheight" : 40.0,
 													"data" : 													{
 														"clips" : [ 															{
-																"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 1/Sounds_of_KSHMR_Vol_1__FINAL_/KSHMR_Cymbals/Crashes/KSHMR_Crash_04.aif",
+																"absolutepath" : "KSHMR_Crash_04.aif",
 																"filename" : "KSHMR_Crash_04.aif",
 																"filekind" : "audiofile",
 																"id" : "u316003356",
@@ -21552,7 +21568,7 @@
 													"clipheight" : 40.0,
 													"data" : 													{
 														"clips" : [ 															{
-																"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms/KSHMR_Acoustic_Low_Tom_Flam_01.wav",
+																"absolutepath" : "KSHMR_Acoustic_Low_Tom_Flam_01.wav",
 																"filename" : "KSHMR_Acoustic_Low_Tom_Flam_01.wav",
 																"filekind" : "audiofile",
 																"id" : "u086002833",
@@ -21592,7 +21608,7 @@
 													"clipheight" : 43.0,
 													"data" : 													{
 														"clips" : [ 															{
-																"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 1/Sounds_of_KSHMR_Vol_1__FINAL_/KSHMR_Cymbals/Crashes/KSHMR_Crash_02.aif",
+																"absolutepath" : "KSHMR_Crash_02.aif",
 																"filename" : "KSHMR_Crash_02.aif",
 																"filekind" : "audiofile",
 																"id" : "u128003364",
@@ -21632,7 +21648,7 @@
 													"clipheight" : 35.0,
 													"data" : 													{
 														"clips" : [ 															{
-																"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms/KSHMR_Acoustic_Low_Tom_03__D_.wav",
+																"absolutepath" : "KSHMR_Acoustic_Low_Tom_03__D_.wav",
 																"filename" : "KSHMR_Acoustic_Low_Tom_03__D_.wav",
 																"filekind" : "audiofile",
 																"id" : "u997002829",
@@ -21672,7 +21688,7 @@
 													"clipheight" : 40.0,
 													"data" : 													{
 														"clips" : [ 															{
-																"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms/KSHMR_Acoustic_Medium_Tom_03__G_.wav",
+																"absolutepath" : "KSHMR_Acoustic_Medium_Tom_03__G_.wav",
 																"filename" : "KSHMR_Acoustic_Medium_Tom_03__G_.wav",
 																"filekind" : "audiofile",
 																"id" : "u792002825",
@@ -21712,7 +21728,7 @@
 													"clipheight" : 43.0,
 													"data" : 													{
 														"clips" : [ 															{
-																"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms/KSHMR_Acoustic_Medium_Tom_01__D#_.wav",
+																"absolutepath" : "KSHMR_Acoustic_Medium_Tom_01__D#_.wav",
 																"filename" : "KSHMR_Acoustic_Medium_Tom_01__D#_.wav",
 																"filekind" : "audiofile",
 																"id" : "u736002821",
@@ -21752,7 +21768,7 @@
 													"clipheight" : 36.0,
 													"data" : 													{
 														"clips" : [ 															{
-																"absolutepath" : "/Users/ben/Splice/sounds/packs/Deep Tech House/Triad_Sounds_DeepTechHouse/KIT_01_-_120bpm_D/KIT_01_-_120bpm_D_One_shots/Perc_shot_1_.wav",
+																"absolutepath" : "Perc_shot_1_.wav",
 																"filename" : "Perc_shot_1_.wav",
 																"filekind" : "audiofile",
 																"id" : "u975002817",
@@ -21792,7 +21808,7 @@
 													"clipheight" : 43.0,
 													"data" : 													{
 														"clips" : [ 															{
-																"absolutepath" : "/Users/ben/Splice/sounds/packs/Future Bass By Singular Sounds/Future_Bass_By_Singular_Sounds/Drum_Hits/Perc_Tom9.wav",
+																"absolutepath" : "Perc_Tom9.wav",
 																"filename" : "Perc_Tom9.wav",
 																"filekind" : "audiofile",
 																"id" : "u365002813",
@@ -21856,7 +21872,7 @@
 													"clipheight" : 35.0,
 													"data" : 													{
 														"clips" : [ 															{
-																"absolutepath" : "Macintosh HD:/Users/ben/Splice/sounds/packs/Golden Era/SM80_-_Golden_Era_-_Wav/drum_hits/hats/ge_hat_realbrite.wav",
+																"absolutepath" : "ge_hat_realbrite.wav",
 																"filename" : "ge_hat_realbrite.wav",
 																"filekind" : "audiofile",
 																"id" : "u887003678",
@@ -21938,7 +21954,7 @@
 													"clipheight" : 47.0,
 													"data" : 													{
 														"clips" : [ 															{
-																"absolutepath" : "/Users/ben/Splice/sounds/packs/MOGL Sounds Future Pop Ear Candy/MOGL_FPEC_drums/MOGL_FPEC_drum_one_shots/MOGL_FPEC_kicks/MOGL_FPEC_kick_classic.wav",
+																"absolutepath" : "MOGL_FPEC_kick_classic.wav",
 																"filename" : "MOGL_FPEC_kick_classic.wav",
 																"filekind" : "audiofile",
 																"id" : "u346002805",
@@ -24203,16 +24219,13 @@
 					"clipheight" : 46.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/MOGL Sounds Future Pop Ear Candy/MOGL_FPEC_drums/MOGL_FPEC_drum_one_shots/MOGL_FPEC_snares/MOGL_FPEC_snare_trappy.wav",
+								"absolutepath" : "MOGL_FPEC_snare_trappy.wav",
 								"filename" : "MOGL_FPEC_snare_trappy.wav",
 								"filekind" : "audiofile",
-								"id" : "u476002809",
+								"id" : "u409011778",
 								"loop" : 0,
 								"content_state" : 								{
-									"pitchshift" : 1.0,
-									"mode" : "extremestretch",
-									"quality" : "better",
-									"timestretch" : 1
+
 								}
 
 							}
@@ -24245,16 +24258,13 @@
 					"clipheight" : 40.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 1/Sounds_of_KSHMR_Vol_1__FINAL_/KSHMR_Cymbals/Crashes/KSHMR_Crash_04.aif",
+								"absolutepath" : "KSHMR_Crash_04.aif",
 								"filename" : "KSHMR_Crash_04.aif",
 								"filekind" : "audiofile",
-								"id" : "u316003356",
+								"id" : "u339004912",
 								"loop" : 0,
 								"content_state" : 								{
-									"pitchshift" : 1.0,
-									"mode" : "extremestretch",
-									"quality" : "better",
-									"timestretch" : 1
+
 								}
 
 							}
@@ -24287,16 +24297,13 @@
 					"clipheight" : 40.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms/KSHMR_Acoustic_Low_Tom_Flam_01.wav",
+								"absolutepath" : "KSHMR_Acoustic_Low_Tom_Flam_01.wav",
 								"filename" : "KSHMR_Acoustic_Low_Tom_Flam_01.wav",
 								"filekind" : "audiofile",
-								"id" : "u086002833",
+								"id" : "u862011797",
 								"loop" : 0,
 								"content_state" : 								{
-									"pitchshift" : 1.0,
-									"mode" : "extremestretch",
-									"quality" : "better",
-									"timestretch" : 1
+
 								}
 
 							}
@@ -24329,16 +24336,13 @@
 					"clipheight" : 43.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 1/Sounds_of_KSHMR_Vol_1__FINAL_/KSHMR_Cymbals/Crashes/KSHMR_Crash_02.aif",
+								"absolutepath" : "KSHMR_Crash_02.aif",
 								"filename" : "KSHMR_Crash_02.aif",
 								"filekind" : "audiofile",
-								"id" : "u128003364",
+								"id" : "u687011793",
 								"loop" : 0,
 								"content_state" : 								{
-									"pitchshift" : 1.0,
-									"mode" : "extremestretch",
-									"quality" : "better",
-									"timestretch" : 1
+
 								}
 
 							}
@@ -24371,16 +24375,13 @@
 					"clipheight" : 35.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms/KSHMR_Acoustic_Low_Tom_03__D_.wav",
+								"absolutepath" : "KSHMR_Acoustic_Low_Tom_03__D_.wav",
 								"filename" : "KSHMR_Acoustic_Low_Tom_03__D_.wav",
 								"filekind" : "audiofile",
-								"id" : "u997002829",
+								"id" : "u569011801",
 								"loop" : 0,
 								"content_state" : 								{
-									"pitchshift" : 1.0,
-									"mode" : "extremestretch",
-									"quality" : "better",
-									"timestretch" : 1
+
 								}
 
 							}
@@ -24413,16 +24414,13 @@
 					"clipheight" : 40.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms/KSHMR_Acoustic_Medium_Tom_03__G_.wav",
+								"absolutepath" : "KSHMR_Acoustic_Medium_Tom_03__G_.wav",
 								"filename" : "KSHMR_Acoustic_Medium_Tom_03__G_.wav",
 								"filekind" : "audiofile",
-								"id" : "u792002825",
+								"id" : "u505011805",
 								"loop" : 0,
 								"content_state" : 								{
-									"pitchshift" : 1.0,
-									"mode" : "extremestretch",
-									"quality" : "better",
-									"timestretch" : 1
+
 								}
 
 							}
@@ -24455,16 +24453,13 @@
 					"clipheight" : 43.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms/KSHMR_Acoustic_Medium_Tom_01__D#_.wav",
+								"absolutepath" : "KSHMR_Acoustic_Medium_Tom_01__D#_.wav",
 								"filename" : "KSHMR_Acoustic_Medium_Tom_01__D#_.wav",
 								"filekind" : "audiofile",
-								"id" : "u736002821",
+								"id" : "u282011512",
 								"loop" : 0,
 								"content_state" : 								{
-									"pitchshift" : 1.0,
-									"mode" : "extremestretch",
-									"quality" : "better",
-									"timestretch" : 1
+
 								}
 
 							}
@@ -24497,16 +24492,13 @@
 					"clipheight" : 36.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/Deep Tech House/Triad_Sounds_DeepTechHouse/KIT_01_-_120bpm_D/KIT_01_-_120bpm_D_One_shots/Perc_shot_1_.wav",
+								"absolutepath" : "Perc_shot_1_.wav",
 								"filename" : "Perc_shot_1_.wav",
 								"filekind" : "audiofile",
-								"id" : "u975002817",
+								"id" : "u030011786",
 								"loop" : 0,
 								"content_state" : 								{
-									"pitchshift" : 1.0,
-									"mode" : "extremestretch",
-									"quality" : "better",
-									"timestretch" : 1
+
 								}
 
 							}
@@ -24539,16 +24531,13 @@
 					"clipheight" : 43.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/Future Bass By Singular Sounds/Future_Bass_By_Singular_Sounds/Drum_Hits/Perc_Tom9.wav",
+								"absolutepath" : "Perc_Tom9.wav",
 								"filename" : "Perc_Tom9.wav",
 								"filekind" : "audiofile",
-								"id" : "u365002813",
+								"id" : "u949011782",
 								"loop" : 0,
 								"content_state" : 								{
-									"pitchshift" : 1.0,
-									"mode" : "extremestretch",
-									"quality" : "better",
-									"timestretch" : 1
+
 								}
 
 							}
@@ -24581,17 +24570,13 @@
 					"clipheight" : 49.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/ben/Splice/sounds/packs/MOGL Sounds Future Pop Ear Candy/MOGL_FPEC_drums/MOGL_FPEC_drum_one_shots/MOGL_FPEC_kicks/MOGL_FPEC_kick_classic.wav",
+								"absolutepath" : "MOGL_FPEC_kick_classic.wav",
 								"filename" : "MOGL_FPEC_kick_classic.wav",
 								"filekind" : "audiofile",
-								"id" : "u346002805",
+								"id" : "u378011774",
 								"loop" : 0,
 								"content_state" : 								{
-									"pitchshift" : 1.0,
-									"mode" : "extremestretch",
-									"quality" : "better",
-									"timestretch" : 1,
-									"loop" : 0
+
 								}
 
 							}
@@ -29560,43 +29545,43 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "KSHMR_Acoustic_Low_Tom_03__D_.wav",
-				"bootpath" : "~/Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KSHMR_Acoustic_Low_Tom_Flam_01.wav",
-				"bootpath" : "~/Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KSHMR_Acoustic_Medium_Tom_01__D#_.wav",
-				"bootpath" : "~/Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KSHMR_Acoustic_Medium_Tom_03__G_.wav",
-				"bootpath" : "~/Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/Sounds of KSHMR Vol. 2/Drums/Acoustic_Drums/Acoustic_Toms",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KSHMR_Crash_02.aif",
-				"bootpath" : "~/Splice/sounds/packs/Sounds of KSHMR Vol. 1/Sounds_of_KSHMR_Vol_1__FINAL_/KSHMR_Cymbals/Crashes",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/Sounds of KSHMR Vol. 1/Sounds_of_KSHMR_Vol_1__FINAL_/KSHMR_Cymbals/Crashes",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "KSHMR_Crash_04.aif",
-				"bootpath" : "~/Splice/sounds/packs/Sounds of KSHMR Vol. 1/Sounds_of_KSHMR_Vol_1__FINAL_/KSHMR_Cymbals/Crashes",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/Sounds of KSHMR Vol. 1/Sounds_of_KSHMR_Vol_1__FINAL_/KSHMR_Cymbals/Crashes",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "AIFF",
 				"implicit" : 1
 			}
@@ -29608,9 +29593,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "KSHMR_cymbal_ride_punchy.wav",
-				"bootpath" : "~/Splice/sounds/packs/Sounds of KSHMR Vol. 4/KSHMR_drums/KSHMR_drum_one_shots/KSHMR_cymbals",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/Sounds of KSHMR Vol. 4/KSHMR_drums/KSHMR_drum_one_shots/KSHMR_cymbals",
+				"name" : "KSHMR_cymbal_ride_ping.wav",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
@@ -29623,36 +29608,36 @@
 			}
 , 			{
 				"name" : "LFS_Hi_Hat_Open_09.wav",
-				"bootpath" : "~/Splice/sounds/packs/Lush Future Soul/Audentity_Records_-_Lush_Future_Soul/Drum_Hits/Hi_Hats/Hi_Hat_Open",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/Lush Future Soul/Audentity_Records_-_Lush_Future_Soul/Drum_Hits/Hi_Hats/Hi_Hat_Open",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MOGL_FPEC_kick_classic.wav",
-				"bootpath" : "~/Splice/sounds/packs/MOGL Sounds Future Pop Ear Candy/MOGL_FPEC_drums/MOGL_FPEC_drum_one_shots/MOGL_FPEC_kicks",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/MOGL Sounds Future Pop Ear Candy/MOGL_FPEC_drums/MOGL_FPEC_drum_one_shots/MOGL_FPEC_kicks",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MOGL_FPEC_snare_trappy.wav",
-				"bootpath" : "~/Splice/sounds/packs/MOGL Sounds Future Pop Ear Candy/MOGL_FPEC_drums/MOGL_FPEC_drum_one_shots/MOGL_FPEC_snares",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/MOGL Sounds Future Pop Ear Candy/MOGL_FPEC_drums/MOGL_FPEC_drum_one_shots/MOGL_FPEC_snares",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Perc_Tom9.wav",
-				"bootpath" : "~/Splice/sounds/packs/Future Bass By Singular Sounds/Future_Bass_By_Singular_Sounds/Drum_Hits",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/Future Bass By Singular Sounds/Future_Bass_By_Singular_Sounds/Drum_Hits",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Perc_shot_1_.wav",
-				"bootpath" : "~/Splice/sounds/packs/Deep Tech House/Triad_Sounds_DeepTechHouse/KIT_01_-_120bpm_D/KIT_01_-_120bpm_D_One_shots",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/Deep Tech House/Triad_Sounds_DeepTechHouse/KIT_01_-_120bpm_D/KIT_01_-_120bpm_D_One_shots",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
@@ -29671,8 +29656,8 @@
 			}
 , 			{
 				"name" : "ge_hat_realbrite.wav",
-				"bootpath" : "~/Splice/sounds/packs/Golden Era/SM80_-_Golden_Era_-_Wav/drum_hits/hats",
-				"patcherrelativepath" : "../../../../../Splice/sounds/packs/Golden Era/SM80_-_Golden_Era_-_Wav/drum_hits/hats",
+				"bootpath" : "~/Desktop/GITHUB REPOSITORIES/EP390-Assignments-Zakharenko/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}

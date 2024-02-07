@@ -1,3 +1,24 @@
 # Development Documentation
+Welcome to my developer documentation for this patch, which I call the "Game Controller Drumkit." This took me quite a lot longer than it should have, and there's a lot of things I would like to further develop in the future with this but I am proud of where I have come with it so far! So without further ado, here's a little more about it.
+## About This Patch
+First off, this patch is designed around a PS5 controller, preferably wired directly to the computer. It should be compatible with any other controller with a touchpad and variable value triggers though. 
 
-THIS IS WHERE MY DEVELOPMENT DOCUMENTATION IS YEY!!
+The goal of this patch is to be a handheld drum sample player and sequencer. You can play the drums either quantized to a sixteenth note grid or in free time. After that, you can record into any of the four measure-long buffers to capture your drum beat idea. From there you can mix the four buffers and mess around with various different effects on top of that, or change the speed and pitch of your recordings!
+
+For more information on the specific workflow and controls, please refer to the user documentation.
+
+## The Interactions
+I wanted to take full advantage of the PS5 controller, or at least as much as I could within the time constraints of this project. Thus, I used almost every button and control with the exception of the gyro controls and the Playstation button. I ommitted the use of the Playstation button because on Mac it seems to bring up the Launchpad menu by default—and while you can disable this in settings, most users wouldn't know how so I decided to not use this button. I also ommitted the gyroscope because I figured drum playing on this might wiggle the controller around, and if the gyro was linked to a control it might cause unnecessary issues.
+
+Most of the controls are buttons, which are used to play the drums themselves (with certain buttons having other functions, such as acting as a SHIFT feature, or enabling/disabling certain things like the transport or playing quantization). I figured this would make the most sense in terms of interaction--press one button and you get one drum hit. Most of the variable output controls I have mapped to effects, with the touchpad acting like an XY pad, the right trigger acting as a speed control and the triggers acting as various other effects. This variable control I thought would make the most sense as effects given their multiple value output. Interpolation I mostly kept to the default in the "scale" object, given that this seemed to work fairly well for the control that I wanted. 
+
+The only oddity in terms of control is the left joystick, which I have crossfading between a hi hat closed, open, and a ride all consistently playing 8th notes (or 16th note sif you have the joystick pressed in). While this may not make as much sense at first, I still feel the interaction is better for the player in the end given how consistent the playing of these certain drum elements usually is--this would be hard to accomplish on this controller with a button, so I decided to implement it as a crossfading mechanism. Plus, it allows you to get interesting blends between them that you wouldn't get on a real drum kit.
+
+While I wish I had time to add haptics to the equation, unfortunately I did not :(
+
+## Review of the Process
+Honestly, the simplest part of this project was how well the controller mapped to everything I wanted it to do. The "gamepad" object works extremely well, and just a few "scale" objects were all the manipulation I needed for the controls to work as expected. The only smallest of issues is calibration of the joysticks, with the center not being (0,0) most of the time. This causes a small bug with the hats or rides still being played very quietly in the background, an issue I'm not sure how to fix.
+
+The hardest part was getting the audio engine to work as expected. While I have had previous Max experience, that was almost exclusively for EP-341 which I took over a year ago, and only focuses on making a couple core things. Thus, getting the things like the live quantization or the buffers that would record exactly one bar no matter the tempo took me quite a lot of experimentation and googling to get. There were also quite a lot of things that I hoped to accomplish that I just didn't have time to--like inifintely adding layers to the recording, or allowing variable length recording that is longer than just a bar. Unfortunately, I simply didn't have time for them.
+
+Because I ended up a bit overambitious on this end, this project took many more hours than I anticipated--but I do not regret this time, as it definitely has helped improve both my Max/MSP skills and my speed using Max in general. 
